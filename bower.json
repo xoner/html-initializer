@@ -1,0 +1,22 @@
+{
+  "name": "arroba-firma",
+  "version": "0.0.0",
+  "authors": [
+    "xoner <dapasroc@me.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": null,
+    "fontawesome": null,
+    "jquery": null,
+    "modernizr": null
+  }
+}
