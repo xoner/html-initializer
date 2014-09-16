@@ -1,8 +1,5 @@
 #!/bin/bash
 
-npm install --save-dev gulp
-npm install gulp-uglify
-npm install gulp-file
-
+npm install
 bower install
 gulp init

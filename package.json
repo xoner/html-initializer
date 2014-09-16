@@ -1,0 +1,31 @@
+{
+  "name": "html-initializer",
+  "version": "0.0.1",
+  "description": "An html project initializer based on the functionality provided by bower, gulp and sublime text",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "gulp-connect": "^2.0.6",
+    "gulp-file": "^0.1.0",
+    "gulp-uglify": "^1.0.1"
+  },
+  "scripts": {
+    "test": "gulp init"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xoner/html-initializer.git"
+  },
+  "keywords": [
+    "html",
+    "initializer",
+    "bower",
+    "gulp"
+  ],
+  "author": "David Pascual Rocher",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xoner/html-initializer/issues"
+  },
+  "homepage": "https://github.com/xoner/html-initializer"
+}

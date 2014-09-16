@@ -1,10 +1,11 @@
 var gulp = require('gulp');
-var uglyfy = require('gulp-uglify');
-var file = require('gulp-file')
 
 gulp.task('default', ['init']);
 
 gulp.task('init', function () {
+    var uglyfy = require('gulp-uglify');
+    var file = require('gulp-file');
+
     // Move jquery to the root folder
     gulp.src('bower_components/jquery/dist/*.min.js')
         .pipe(gulp.dest('js/vendor'));
@@ -34,5 +35,14 @@ gulp.task('init', function () {
 
     // Create the aplication css and js main files
     file('main.js', '// Add your js here').pipe(gulp.dest('js'));
-    file('main.css', '// Add your js here').pipe(gulp.dest('css'));
-})
+    file('main.css', '/* Add your css here */').pipe(gulp.dest('css'));
+});
+
+gulp.task('serve', function(){
+    var connect = require('gulp-connect');
+
+    connect.server({
+        port: 8000,
+        livereload: true
+    });
+});
