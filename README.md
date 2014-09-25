@@ -1,7 +1,7 @@
 html-initializer
 ================
 
-An html project initializer/bootstrapper. This project provides you a starting point for your web projects that includes the latest version of [twitter bootstrap](http://getbootstrap.com/), [Jquery](http://jquery.com/), [Modernizr](http://modernizr.com/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/). This project also comes with a simple web server, (connect)[https://github.com/senchalabs/connect], to test your web pages without having to rely on heavy web servers like apache.
+An html project initializer/bootstrapper. This project provides you a starting point for your web projects that includes the latest version of [twitter bootstrap](http://getbootstrap.com/), [Jquery](http://jquery.com/), [Modernizr](http://modernizr.com/) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/). This project also comes with a simple web server, [connect](https://github.com/senchalabs/connect), to test your web pages without having to rely on heavy web servers like apache.
 
 html-initializer uses bower as dependency manager and gulp as task runner.
 
